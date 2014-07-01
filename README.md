@@ -1,4 +1,4 @@
-percent-encode
+oauth-percent-encode
 ==============
 
 Just one utility function for percent encoding strings as described in RFC 3986, Section 2.1
@@ -7,11 +7,11 @@ This can be used when creating OAuth signatures.
 
 ## Installation
 
-  npm install percent-encode --save
+  npm install oauth-percent-encode --save
 
 ## Usage
 
-  var percentEncode = require('percent-encode');
+  var percentEncode = require('oauth-percent-encode');
 
   console.log('Percent encoding string "A message": ' +
       percentEncode('A message'));

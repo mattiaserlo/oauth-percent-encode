@@ -1,5 +1,5 @@
 {
-  "name": "percent-encode",
+  "name": "oauth-percent-encode",
   "version": "0.1.0",
   "description": "Percent encode strings as described in RFC 3986, Section 2.1",
   "main": "index.js",
@@ -8,16 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mattiaserlo/percent-encode.git"
+    "url": "https://github.com/mattiaserlo/oauth-percent-encode.git"
   },
   "keywords": [
+    "oauth",
     "percent",
     "encode"
   ],
   "author": "Mattias Erlo <mattias.erlo@gmail.com>",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/mattiaserlo/percent-encode/issues"
+    "url": "https://github.com/mattiaserlo/oauth-percent-encode/issues"
   },
   "devDependencies": {
     "mocha": "~1.20.1",
